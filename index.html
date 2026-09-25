@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mengke Li</title>
+  <meta name="description" content="Mengke Li — researcher at the National University of Singapore working on computational materials science.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚛️</text></svg>">
+</head>
+<body>
+  <header class="hero">
+    <nav>
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="intro">
+      <h1>Mengke Li</h1>
+      <p class="tagline">Researcher · Computational materials science · National University of Singapore</p>
+      <p class="lede">
+        I study materials from the atom up, combining first-principles calculations,
+        machine-learned interatomic potentials, and molecular dynamics to understand
+        how structure controls properties.
+      </p>
+      <div class="links">
+        <a href="mailto:limengke@nus.edu">Email</a>
+        <a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a>
+        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        I am a researcher at the National University of Singapore. My work sits at the
+        intersection of materials chemistry and simulation, with a focus on energy
+        materials. <!-- TODO: replace with 2–3 sentences about yourself -->
+      </p>
+    </section>
+
+    <section id="research">
+      <h2>Research</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Polymer electrolytes</h3>
+          <p>Ion transport and structure in solid polymer electrolytes for next-generation batteries.</p>
+        </article>
+        <article class="card">
+          <h3>Machine-learned potentials</h3>
+          <p>Training and evaluating MLIPs such as MACE to reach DFT accuracy at MD scale.</p>
+        </article>
+        <article class="card">
+          <h3>First-principles simulation</h3>
+          <p>DFT, ab initio MD, and phonon calculations to probe reaction pathways and stability.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2>Selected publications</h2>
+      <ol class="pubs">
+        <li>
+          <span class="pub-title">Publication title goes here</span><br>
+          <span class="pub-meta">M. Li, Co-author, Co-author. <em>Journal</em>, 2026.</span>
+          <!-- TODO: add DOI link -->
+        </li>
+        <li>
+          <span class="pub-title">Another publication title</span><br>
+          <span class="pub-meta">M. Li, Co-author. <em>Journal</em>, 2025.</span>
+        </li>
+      </ol>
+      <p class="muted">Full list on <a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a>.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        The best way to reach me is by email at
+        <a href="mailto:limengke@nus.edu">limengke@nus.edu</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Mengke Li · limengke.com</p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
