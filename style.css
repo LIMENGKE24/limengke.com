@@ -98,3 +98,8 @@ footer {
   h1 { font-size: 2rem; }
   .intro { padding: 40px 20px 36px; }
 }
+
+/* nav brand mark */
+nav { align-items: center; }
+.brand { display: inline-flex; align-items: center; gap: 8px; font-weight: 600; color: var(--text) !important; margin-right: auto; }
+.brand img { border-radius: 7px; }
